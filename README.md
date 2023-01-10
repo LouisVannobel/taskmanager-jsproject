@@ -1,4 +1,4 @@
-# TaskManager-JSProject
+# TaskManager-JSProject | Groupe 14 - BIN 2
 
 Ce code utilise les modules express, jsonwebtoken et sequelize pour créer une application web qui gère des tâches, des utilisateurs et des projets.
 Il utilise Express pour créer un serveur web et définir des routes pour manipuler les tâches, les utilisateurs et les projets.
@@ -20,3 +20,4 @@ Il utilise jsonwebtoken pour vérifier les jetons JWT pour s'assurer que l'utili
 - Les routes pour créer, mettre à jour et récupérer les tâches, les utilisateurs et les projets nécessitent une authentification pour être protégées.
 
 - Validation des droits pour faire certaines opération (seul l'admin peut créer des tâches et des projets)
+
