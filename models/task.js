@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const database = require('../config/database');
+const database = require('../models/db');
 
 const Task = database.define('task', {
     title: Sequelize.STRING,
