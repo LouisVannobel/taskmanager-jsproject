@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const database = require('../config/database');
+const database = require('../models/db');
 
 const Project = database.define('project', {
     title: Sequelize.STRING,
